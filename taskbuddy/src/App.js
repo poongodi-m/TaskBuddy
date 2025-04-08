@@ -1,5 +1,10 @@
+import TaskForm from "./components/TaskForm";
+
 export default function App() {
   return (
-    <h1>Hello</h1>
+    <div>
+    <h1>TaskBuddy</h1>
+    <TaskForm />
+    </div>
   )
 }
